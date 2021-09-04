@@ -1,8 +1,8 @@
 FROM node:12.16
-WORKDIR /app
-COPY . /app
 RUN npm install
 RUN npm run build
+
+COPY ./dist /app
 
 FROM socialengine/nginx-spa:latest
 
