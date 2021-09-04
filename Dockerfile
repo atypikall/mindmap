@@ -1,3 +1,6 @@
+#Node for install npm
+FROM node:latest
+
 #Ngninx server that hundle pushState
 FROM socialengine/nginx-spa:latest
 
