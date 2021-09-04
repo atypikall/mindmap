@@ -1,8 +1,10 @@
-#Node for install npm
-FROM node:latest
-
 #Ngninx server that hundle pushState
 FROM socialengine/nginx-spa:latest
+
+#Install npm
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get install -y nodejs \
+    npm
 
 #Install package and build app
 RUN npm install
