@@ -3,9 +3,7 @@ FROM socialengine/nginx-spa:latest
 COPY package.json package-lock.json
 
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y nodejs \
     npm
-
 
 #Install package and build app
 RUN npm install
