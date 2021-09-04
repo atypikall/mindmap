@@ -46,6 +46,14 @@
             color="primary" mat-icon-button>
         <mat-icon>content_paste</mat-icon>
     </button>
+    <button (click)="mmpService.removeNode()" [title]="'TOOLTIPS.REMOVE_NODE' | translate"
+            color="primary" mat-icon-button>
+        <mat-icon>remove_node</mat-icon>
+    </button>
+    <button (click)="mmpService.addNode()" [title]="'TOOLTIPS.ADD_NODE' | translate"
+            color="primary" mat-icon-button>
+        <mat-icon>add_node</mat-icon>
+    </button>
 
     <div class="vertical-line">
         <div></div>
@@ -75,16 +83,12 @@
 
     <span class="toolbar-spacer"></span>
 
-    <button (click)="toggleFullScreen()" [title]="'TOOLTIPS.FULLSCREEN' | translate"
-            color="primary" mat-icon-button>
-        <mat-icon>fullscreen</mat-icon>
-    </button>
 
     <div class="vertical-line">
         <div></div>
     </div>
 
-    <button color="primary" mat-icon-button routerLink="/app/shortcuts">
+    <button color="primary" mat-icon-button [title]="'shortcuts'" routerLink="/app/shortcuts">
         <mat-icon>timeline</mat-icon>
     </button>
 
@@ -92,7 +96,4 @@
         <mat-icon>settings</mat-icon>
     </button>
 
-    <button color="primary" mat-icon-button routerLink="/">
-        <mat-icon>info</mat-icon>
-    </button>
 </mat-toolbar>
