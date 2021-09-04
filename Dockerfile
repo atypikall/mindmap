@@ -8,7 +8,7 @@ RUN apt-get update && apt-get upgrade -y && \
 
 #Install package and build app
 RUN npm install
-RUN npm build
+RUN npm run build
 
 #Copy the build into app
 COPY ./dist /app
