@@ -11,7 +11,7 @@ RUN npm install
 RUN npm build
 
 #Copy the build into app
-COPY ./build /app
+COPY ./dist /app
 
 #CHMOD for the rights of the app
 RUN chmod -R 777 /app
