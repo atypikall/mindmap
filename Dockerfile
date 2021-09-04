@@ -1,4 +1,7 @@
 FROM node:12.16
+
+COPY package.json package-lock.json /app
+
 RUN npm install
 RUN npm run build
 
