@@ -1,19 +1,10 @@
-FROM socialengine/nginx-spa:latest
-
-COPY package.json package-lock.json
-
-RUN apt-get update && apt-get upgrade -y && \
-    npm
-
-#Install package and build app
+FROM node:12.16
+WORKDIR /app
+COPY . /app
 RUN npm install
-
-COPY . .
-
 RUN npm run build
 
-#Copy the build into app
-COPY ./dist /app
+FROM socialengine/nginx-spa:latest
 
 #CHMOD for the rights of the app
 RUN chmod -R 777 /app
