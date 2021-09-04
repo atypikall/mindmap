@@ -4,6 +4,10 @@ WORKDIR /app
 
 COPY package.json package-lock.json
 
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get install -y nodejs \
+    npm
+
 #Ngninx server that hundle pushState
 FROM socialengine/nginx-spa:latest
 
