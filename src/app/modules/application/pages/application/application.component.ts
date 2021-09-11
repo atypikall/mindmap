@@ -5,7 +5,7 @@ import {MmpService} from '../../../../core/services/mmp/mmp.service'
 import {SettingsService} from '../../../../core/services/settings/settings.service'
 import {UtilsService} from '../../../../core/services/utils/utils.service'
 import {NotificationService} from '../../../../core/services/notification/notification.service'
-
+import jsonMap from '../../../../../assets/data/default.json'
 @Component({
     selector: 'mindmapp-application',
     templateUrl: './application.component.html',
@@ -41,7 +41,8 @@ export class ApplicationComponent implements OnInit {
 
     public async initMap (options: MapOptions) {
         this.mmpService.create('map_1', options)
-
+        // Get default mindmap
+        this.mmpService.new(jsonMap)
         await this.mapCacheService.init()
 
         this.node = this.mmpService.selectNode()
