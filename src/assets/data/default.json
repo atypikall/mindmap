@@ -1,0 +1,457 @@
+[{
+    "id": "map_1_node_0",
+    "parent": "",
+    "name": "Mindmap\n",
+    "coordinates": {
+        "x": 1252.62939453125,
+        "y": 516.5
+    },
+    "image": {
+        "src": "",
+        "size": 70
+    },
+    "colors": {
+        "name": "#666666",
+        "background": "#f5f5f5",
+        "branch": ""
+    },
+    "font": {
+        "size": 26,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": false,
+    "k": -14.715327425823173
+}, {
+    "id": "map_1_node_3",
+    "parent": "map_1_node_0",
+    "name": "Choisi les infos que tu souhaites détailler",
+    "coordinates": {
+        "x": 925.2100219726562,
+        "y": 227.70578002929688
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#009688"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -6.877241181577656
+}, {
+    "id": "map_1_node_5",
+    "parent": "map_1_node_3",
+    "name": "Vie Perso",
+    "coordinates": {
+        "x": 673.08056640625,
+        "y": 126.57633972167969
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#009688"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": 11.922137575205703
+}, {
+    "id": "map_1_node_6",
+    "parent": "map_1_node_3",
+    "name": "Vie Pro",
+    "coordinates": {
+        "x": 823.2100219726562,
+        "y": 78.85446166992188
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": 5.169888926454817
+}, {
+    "id": "map_1_node_7",
+    "parent": "map_1_node_3",
+    "name": "Les 2",
+    "coordinates": {
+        "x": 1014.6922607421875,
+        "y": 92.70576477050781
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -12.341934609711753
+}, {
+    "id": "map_1_node_9",
+    "parent": "map_1_node_0",
+    "name": "Approprie-toi le format",
+    "coordinates": {
+        "x": 1521.22802734375,
+        "y": 400.67652893066406
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#03a9f4",
+        "background": "#f5f5f5",
+        "branch": "#666666"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -4.859882697002842
+}, {
+    "id": "map_1_node_10",
+    "parent": "map_1_node_9",
+    "name": "Couleurs",
+    "coordinates": {
+        "x": 1311.1427001953125,
+        "y": 330.07057189941406
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#03a9f4",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -5.776372842258999
+}, {
+    "id": "map_1_node_11",
+    "parent": "map_1_node_9",
+    "name": "Structure",
+    "coordinates": {
+        "x": 1392.7003173828125,
+        "y": 262.41636657714844
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#03a9f4",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -18.49399949881464
+}, {
+    "id": "map_1_node_12",
+    "parent": "map_1_node_9",
+    "name": "Forme",
+    "coordinates": {
+        "x": 1560.4102783203125,
+        "y": 272.10594177246094
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#03a9f4",
+        "background": "#f5f5f5",
+        "branch": "#03a9f4"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -15.013292780021734
+}, {
+    "id": "map_1_node_13",
+    "parent": "map_1_node_9",
+    "name": "Intégration d'images",
+    "coordinates": {
+        "x": 1801.636962890625,
+        "y": 281.9442138671875
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#03a9f4",
+        "background": "#f5f5f5",
+        "branch": "#03a9f4"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -1.732061456173966
+}, {
+    "id": "map_1_node_14",
+    "parent": "map_1_node_0",
+    "name": "Sois Bref",
+    "coordinates": {
+        "x": 1533.38916015625,
+        "y": 675.9787902832031
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#666666",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -7.085026620781694
+}, {
+    "id": "map_1_node_16",
+    "parent": "map_1_node_14",
+    "name": "Utilise des mots clés",
+    "coordinates": {
+        "x": 1733.38916015625,
+        "y": 554.8301086425781
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#666666",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": 19.219950852724367
+}, {
+    "id": "map_1_node_17",
+    "parent": "map_1_node_14",
+    "name": "Des expressions courtes",
+    "coordinates": {
+        "x": 1789.0423583984375,
+        "y": 693.3627014160156
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#666666",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": 14.72988774366339
+}, {
+    "id": "map_1_node_18",
+    "parent": "map_1_node_0",
+    "name": "Pense à l'anonymisation",
+    "coordinates": {
+        "x": 976.6104736328125,
+        "y": 554.0351257324219
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#673ab7",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -7.1883561326787415
+}, {
+    "id": "map_1_node_19",
+    "parent": "map_1_node_18",
+    "name": "Ecris au masculin",
+    "coordinates": {
+        "x": 678.0808715820312,
+        "y": 535.7557678222656
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#673ab7",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -11.006475869412222
+}, {
+    "id": "map_1_node_20",
+    "parent": "map_1_node_18",
+    "name": "Ici tu es Michel",
+    "coordinates": {
+        "x": 705.76953125,
+        "y": 622.4325256347656
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#673ab7",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": 10.606530524231879
+}, {
+    "id": "map_1_node_21",
+    "parent": "map_1_node_6",
+    "name": "Anciennes expériences",
+    "coordinates": {
+        "x": 1025.2100219726562,
+        "y": -36.145538330078125
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#546e7a"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -10.90577720920785
+}, {
+    "id": "map_1_node_22",
+    "parent": "map_1_node_5",
+    "name": "Famille",
+    "coordinates": {
+        "x": 494.08056640625,
+        "y": 74.57632446289062
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#009688"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -6.722327821763825
+}, {
+    "id": "map_1_node_23",
+    "parent": "map_1_node_5",
+    "name": "Passion",
+    "coordinates": {
+        "x": 522.08056640625,
+        "y": 162.57632446289062
+    },
+    "image": {
+        "src": "",
+        "size": 60
+    },
+    "colors": {
+        "name": "#009688",
+        "background": "#f5f5f5",
+        "branch": "#009688"
+    },
+    "font": {
+        "size": 22,
+        "style": "normal",
+        "weight": "normal"
+    },
+    "locked": true,
+    "k": -19.742362807741802
+}]

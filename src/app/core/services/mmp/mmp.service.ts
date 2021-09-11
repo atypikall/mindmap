@@ -58,7 +58,6 @@ export class MmpService {
     public create (id: string, options?: any) {
         const map = mmp.create(id, options)
 
-        this.maps.set(id, map)
 
         this.currentMap = map
         this.currentId = id
