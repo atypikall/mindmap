@@ -1,25 +1,208 @@
-[{
+[
+  {
     "id": "map_1_node_0",
     "parent": "",
-    "name": "Moi\n",
-    "coordinates": {
-        "x": 1252.62939453125,
-        "y": 516.5
-    },
-    "image": {
-        "src": "",
-        "size": 70
-    },
-    "colors": {
-        "name": "#666666",
-        "background": "#f5f5f5",
-        "branch": ""
-    },
-    "font": {
-        "size": 26,
-        "style": "normal",
-        "weight": "normal"
-    },
+    "name": "Moi : \nDescription en 5 mots\n",
+    "coordinates": { "x": 759.5, "y": 259.5 },
+    "image": { "src": "", "size": 70 },
+    "colors": { "name": "#666666", "background": "#f5f5f5", "branch": "" },
+    "font": { "size": 26, "style": "normal", "weight": "normal" },
     "locked": false,
     "k": -14.715327425823173
-}]
+  },
+  {
+    "id": "map_1_node_2",
+    "parent": "map_1_node_0",
+    "name": "Motivations",
+    "coordinates": { "x": 914.191650390625, "y": 105.99925994873047 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 1.7850265343402612
+  },
+  {
+    "id": "map_1_node_3",
+    "parent": "map_1_node_0",
+    "name": "Bonheur",
+    "coordinates": { "x": 1129.281982421875, "y": 110.3450927734375 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 8.187933748210739
+  },
+  {
+    "id": "map_1_node_4",
+    "parent": "map_1_node_0",
+    "name": "Aspirations profondes",
+    "coordinates": { "x": 1231.9376220703125, "y": 180.5947265625 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": -16.18311808633683
+  },
+  {
+    "id": "map_1_node_5",
+    "parent": "map_1_node_0",
+    "name": "Indispensables à mon équilibre\n",
+    "coordinates": { "x": 1154.284912109375, "y": 277.0624084472656 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": -6.672444469221572
+  },
+  {
+    "id": "map_1_node_7",
+    "parent": "map_1_node_0",
+    "name": "Valeurs",
+    "coordinates": { "x": 1047.5, "y": 454.5 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": -0.5366111284576469
+  },
+  {
+    "id": "map_1_node_10",
+    "parent": "map_1_node_0",
+    "name": "Objectifs et Ambitions",
+    "coordinates": { "x": 1234.811279296875, "y": 365.7496032714844 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": -19.416508189829695
+  },
+  {
+    "id": "map_1_node_14",
+    "parent": "map_1_node_0",
+    "name": "Freins\n",
+    "coordinates": { "x": 834.3298950195312, "y": 485.09031677246094 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 19.954078220570295
+  },
+  {
+    "id": "map_1_node_15",
+    "parent": "map_1_node_0",
+    "name": "Points Forts",
+    "coordinates": { "x": 648.0263061523438, "y": 626.1857452392578 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": -15.113578052439465
+  },
+  {
+    "id": "map_1_node_16",
+    "parent": "map_1_node_0",
+    "name": "Passions : \nce qu'elles te permettent de développer ",
+    "coordinates": { "x": 271.0119323730469, "y": 376.3473663330078 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 4.476486687913663
+  },
+  {
+    "id": "map_1_node_17",
+    "parent": "map_1_node_0",
+    "name": "Peurs et Craintes",
+    "coordinates": { "x": 475.09083557128906, "y": 212.027099609375 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": -10.03013883521616
+  },
+  {
+    "id": "map_1_node_20",
+    "parent": "map_1_node_0",
+    "name": "Réussites et Fierté",
+    "coordinates": { "x": 593.9066467285156, "y": 120.12870788574219 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 17.34570271869064
+  },
+  {
+    "id": "map_1_node_22",
+    "parent": "map_1_node_0",
+    "name": "Echecs et ce que j'en ai appris",
+    "coordinates": { "x": 831.115234375, "y": -30.007177352905273 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 12.027193932495933
+  },
+  {
+    "id": "map_1_node_23",
+    "parent": "map_1_node_0",
+    "name": "Vision dans 5 ans",
+    "coordinates": { "x": 544.1255187988281, "y": 464.53749656677246 },
+    "image": { "src": "", "size": 60 },
+    "colors": {
+      "name": "#666666",
+      "background": "#f5f5f5",
+      "branch": "#546e7a"
+    },
+    "font": { "size": 22, "style": "normal", "weight": "normal" },
+    "locked": true,
+    "k": 17.308956986339552
+  }
+]
